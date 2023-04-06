@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb+srv://DixonC:Ghnb$$5270@cluster0.6nt3mnn.mongodb.net/helpingHandDB",{useNewUrlParser:true});
+mongoose.connect("#",{useNewUrlParser:true});
 
 
 
