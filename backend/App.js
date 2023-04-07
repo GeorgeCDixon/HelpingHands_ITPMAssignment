@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const ejs = require("ejs");
 
 
-
 const app= express();
 
 app.set('view engine', 'ejs');
@@ -14,7 +13,7 @@ app.use(express.static("public"));
 
 
 mongoose.set("strictQuery", false);
-mongoose.connect("#",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://DixonC:Ghnb$$5270@cluster0.6nt3mnn.mongodb.net/helpinghand_db?retryWrites=true&w=majority",{useNewUrlParser:true});
 
 
 
