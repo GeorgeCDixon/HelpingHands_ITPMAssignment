@@ -1,0 +1,99 @@
+table{
+    width: 40%;
+    height: 500px;
+    border: 1px solid rgb(12, 12, 12);
+    margin-top: 10px;
+    margin-left: 130px;
+    gap: 10px;
+    
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 75px;
+    width: 100%;
+    height: 600px;
+}
+.titles{
+    background-color: rgb(94, 95, 97);
+    color: white;
+    font-family: 'Gelasio';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 27px;
+text-align: center;
+}
+tbody{
+    font-family: 'Gelasio';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+text-align: center;
+
+}
+
+.edit{
+    box-sizing: border-box;
+margin-left: 15px;
+margin-right: 15px;
+    color:#FFFF;
+width: 91px;
+height: 42px;
+margin-bottom: 15px;
+
+font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+background: rgba(54, 219, 39, 0.8);
+border: 1px solid #36DB27;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 80px;
+}
+.delete{
+    box-sizing: border-box;
+    color:#FFFF;
+
+    width: 91px;
+    height: 42px;
+    left: 655px;
+    top: 340px;
+    font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+    background: rgba(223, 20, 20, 0.8);
+    border: 1px solid #e82121;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+   
+    }
+
+.view{
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color:#FFFF;
+    width: 91px;
+    height: 42px;
+    left: 655px;
+    top: 340px;
+    font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+    background: rgba(179, 175, 175, 0.8);
+    border: 1px solid #aeadad;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+
+}    

@@ -1,0 +1,52 @@
+.products-update{
+    display: flex;
+    flex-direction: column;
+    width: 1312px;
+    border: 3px solid black;
+    height: 700px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    padding-top: 50px;
+    background-color: #e0d7d7;
+
+}
+input{
+    box-sizing: border-box;
+
+
+width: 456px;
+height: 50px;
+left: 914px;
+top: 227px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+label{
+    font-family: 'Gelasio';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+}
+.submit{
+    box-sizing: border-box;
+    width: 174px;
+    height: 54px;
+   
+    margin-top: 50px;
+    margin-left: 575px;
+    background: #2A80E6;
+    border: 1px solid #2A80E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: 'Gidugu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+
+color: #FFFFFF;
+
+}

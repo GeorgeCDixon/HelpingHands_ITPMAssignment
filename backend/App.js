@@ -13,7 +13,11 @@ app.use(express.static("public"));
 
 
 mongoose.set("strictQuery", false);
-mongoose.connect("#",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://DixonC:Ghnb$$5270@cluster0.6nt3mnn.mongodb.net/helpinghand_db?retryWrites=true&w=majority",{useNewUrlParser:true});
+
+
+const products = require('./routes/products.js');
+app.use('/products', products);
 
 
 

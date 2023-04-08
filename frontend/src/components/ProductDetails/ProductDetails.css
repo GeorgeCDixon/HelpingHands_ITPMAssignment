@@ -1,0 +1,108 @@
+.Spoon{
+    position: absolute;
+width: 768px;
+height: 550px;
+left: 100px;
+margin-top: 11px;
+}
+.Chef{
+    position: absolute;
+width: 482px;
+height: 240px;
+left: 100px;
+top: 669px;
+}
+.CookingSet{
+    position: absolute;
+width: 240px;
+height: 238px;
+left: 614px;
+top: 671px;
+
+}
+
+.right>:nth-child(1){
+    position: absolute;
+    width: 484px;
+    height: 48px;
+    left: 890px;
+    top: 119px;
+    
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #130891;
+    
+    
+}
+.right>:nth-child(2){
+    position: absolute;
+width: 202px;
+height: 48px;
+left: 857px;
+top: 179px;
+padding: 10px;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+.box2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 513px;
+height: 344px;
+left: 899px;
+top: 235px;
+
+background: #FFFFFF;
+opacity: 0.7;
+border: 1px solid #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+p{
+    
+width: 484px;
+height: 312px;
+left: 916px;
+top: 249px;
+
+font-family: 'Gayathri';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: justify;
+
+color: #000000;
+
+}
+.right>:nth-child(4){
+    position: absolute;
+width: 426px;
+height: 34px;
+left: 913px;
+top: 601px;
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 34px;
+text-align: justify;
+padding: 5px;
+color: #000000;
+
+
+}
