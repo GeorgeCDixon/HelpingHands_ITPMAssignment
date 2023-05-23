@@ -1,29 +1,36 @@
+//import React, { Component } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from './components/Login';
+import CreateJobs from './components/CreateJobs';
+import UpdateJobs from './components/UpdateJobs';
+import ManageJobs from './components/ManageJobs';
+import CreateCourse from './components/CreateCourse';
+import UpdateCourse from './components/UpdateCourse';
+import ManageCourse from './components/ManageCourse';
+import Nav from './components/Navbar';
+import ViewJobs from './components/ViewJobs';
+import ViewCourse from './components/ViewCourse';
 
-import './App.css';
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-import AddProducts from './components/AddProducts/AddProduct';
-import Delete from './components/DeleteProduct/Delete';
-import Update from './components/UpdateProducts/UpdateProduct';
-import ProductDetail from './components/ProductDetails/ProductDetails';
-
-function  App(){
-  return(
-    <div classame="App">
-     <BrowserRouter>
-      
-       <Routes>
-               <Route path='/products' exact element={<AddProducts />} />
-               <Route path='/delete' exact element={<Delete />} />
-               <Route path='/update' exact element={<Update />} />
-               <Route path='/productDetail' exact element={<ProductDetail />} />
-      </Routes>
-      
-      </BrowserRouter>
-      {/* <Navbar/>     
-  <Details/>*/}
-      
-      
-    </div>
+function App() {
+  return (
+    <>
+    <Nav/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />       
+          <Route path="/add" element={<CreateJobs />} />
+          <Route path="/addCourse" element={<CreateCourse />} />
+          <Route path="/edit/:id" element={<UpdateJobs />} />
+          <Route path="/edits/:id" element={<UpdateCourse />} />
+          <Route path="/jobs" element={<ManageJobs />} />
+          <Route path="/manageCourse" element={<ManageCourse />} />
+          <Route path="/view" element={<ViewJobs />} />
+          <Route path="/viewcourse" element={<ViewCourse />} />
+        </Routes>
+      </Router>
+  
+    </>
   );
-}   
-export default  App;
+}
+
+export default App;

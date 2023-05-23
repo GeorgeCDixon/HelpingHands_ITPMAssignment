@@ -1,14 +1,6 @@
 .App {
   text-align: center;
-
 }
-body{
-  background-image: url('../src/img/Clay.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-
 
 .App-logo {
   height: 40vmin;
